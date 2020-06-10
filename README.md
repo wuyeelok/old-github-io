@@ -4,9 +4,12 @@
 
 - [Testing Github Pages](#testing-github-pages)
 - [Table of Contents](#table-of-contents)
+- [VS Code Extension](#vs-code-extension)
 - [Rerference](#rerference)
 
+# VS Code Extension
 
+* ```Live Server``` by *Ritwick Dey*
 
 # Rerference
 
