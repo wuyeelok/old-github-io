@@ -10,6 +10,7 @@
 # VS Code Extension
 
 * ```Live Server``` by *Ritwick Dey*
+* ```Prettier``` bt *Esben Petersen* (enable format on save by searching ```formatOnSave``` in the *Code -> Preferences -> Settings* and **check** the box)
 
 # Rerference
 
