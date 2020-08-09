@@ -83,6 +83,7 @@ nav a#openup {
 
   #showcase {
     height: 50vh;
+    background: url("../img/showcase_small.jpg") no-repeat center/cover;
   }
 
   #showcase .container {
