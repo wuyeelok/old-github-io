@@ -19,6 +19,18 @@ body {
   overflow-y: hidden;
 }
 
+#showcase .container {
+  margin-top: 25vh;
+}
+
+/* Utility Classes */
+.container {
+  max-width: 1180px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
+
 /* Navigation */
 nav {
   height: 40px;
