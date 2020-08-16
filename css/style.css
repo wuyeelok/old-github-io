@@ -21,6 +21,11 @@ img {
   width: 100%;
 }
 
+a {
+  text-decoration: none;
+  color: #ccc;
+}
+
 /* Section */
 .section {
   padding: 2rem 0;
@@ -31,8 +36,19 @@ img {
   margin: 0;
 }
 
-.section {
+.section h3 {
   font-size: 2rem;
+}
+
+/* Buttons */
+.btn {
+  padding: 1rem;
+  color: #fff;
+  display: inline-block;
+}
+
+.btn-primary {
+  background: var(--primary-color);
 }
 
 /* Showcase */
