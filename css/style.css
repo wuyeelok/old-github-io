@@ -107,6 +107,19 @@ a {
   margin-top: 1rem;
 }
 
+/* Text colors */
+.text-primary {
+  color: var(--primary-color);
+}
+
+.text-secondary {
+  color: var(--secondary-color);
+}
+
+.text-light {
+  color: var(--light-color);
+}
+
 /* Navigation */
 nav {
   height: 40px;
