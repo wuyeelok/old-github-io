@@ -51,6 +51,18 @@ a {
   background: var(--primary-color);
 }
 
+.btn-primary:hover {
+  background: var(--primary-color-hover);
+}
+
+.btn-secondary {
+  background: var(--secondary-color);
+}
+
+.btn-secondary:hover {
+  background: var(--secondary-color-hover);
+}
+
 /* Showcase */
 #showcase {
   margin: 0;
@@ -85,6 +97,14 @@ a {
 
 .lead {
   font-size: 1.3rem;
+}
+
+.mb {
+  margin-bottom: 1rem;
+}
+
+.mt {
+  margin-top: 1rem;
 }
 
 /* Navigation */
