@@ -120,6 +120,11 @@ a {
   color: var(--light-color);
 }
 
+.bg-light {
+  background: var(--light-color);
+  color: #333;
+}
+
 /* Navigation */
 nav {
   height: 40px;
