@@ -40,6 +40,10 @@ a {
   font-size: 2rem;
 }
 
+section#entertainment {
+  background: url(../img/section-bg.jpg) no-repeat bottom/cover;
+}
+
 /* Showcase */
 #showcase {
   margin: 0;
