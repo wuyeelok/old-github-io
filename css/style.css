@@ -283,4 +283,8 @@ nav a#openup {
   .gift-cards {
     grid-template-columns: 1fr;
   }
+
+  footer .footer-cols {
+    display: none;
+  }
 }
