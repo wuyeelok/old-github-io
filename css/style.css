@@ -279,4 +279,8 @@ nav a#openup {
   zoom: 1;
 }
 
-/* For IE 6/7 (trigger hasLayout) */
+@media screen and (max-width: 580px) {
+  .gift-cards {
+    grid-template-columns: 1fr;
+  }
+}
