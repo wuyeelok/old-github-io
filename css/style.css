@@ -279,7 +279,7 @@ nav a#openup {
   zoom: 1;
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 780px) {
   .gift-cards {
     grid-template-columns: 1fr;
   }
