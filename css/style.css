@@ -75,8 +75,9 @@ section#entertainment {
 }
 
 #showcase h1 {
-  font-size: 3rem;
+  font-size: calc(1rem + 0.8vw);
   margin-bottom: 0;
+  margin-top: 0;
 }
 
 #showcase h2 {
@@ -212,7 +213,7 @@ nav a#openup {
   }
 
   #showcase {
-    height: 70vh;
+    height: 50vh;
     min-height: 18rem;
     background: url("../img/showcase_keyboard_small.jpg"),
       radial-gradient(rgb(201, 193, 193), #111);
@@ -224,10 +225,6 @@ nav a#openup {
 
   #showcase .container {
     margin-top: 15vh;
-  }
-
-  #showcase h1 {
-    font-size: 2rem;
   }
 
   #showcase h2 {
@@ -293,7 +290,7 @@ nav a#openup {
 }
 
 .hero-svg {
-  width: 85%;
+  width: 99%;
   max-width: 50rem;
   margin: 4px auto;
 }
