@@ -24,7 +24,7 @@ $(function () {
 });
 
 // Smooth Scrolling
-$(".cf a").on("click", function (event) {
+$(".cf a, .internal-link").on("click", function (event) {
   if (this.hash !== "") {
     event.preventDefault();
 
