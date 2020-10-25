@@ -333,25 +333,7 @@ nav a#openup {
 }
 
 .project-item {
-  display: block;
-  position: relative;
-  text-decoration: none;
   text-align: center;
-  z-index: 1;
-}
-
-.project-item::after {
-  content: "";
-  position: absolute;
-  top: -30%;
-  left: 25%;
-  padding: 50% 50% 0 0;
-  background-color: rgba(27, 190, 231, 0.6);
-  border-radius: 50%;
-  z-index: -1;
-}
-
-.grid-item {
   display: flex;
   justify-content: center;
   flex-flow: column nowrap;
