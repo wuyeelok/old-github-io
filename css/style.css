@@ -338,6 +338,14 @@ nav a#openup {
   justify-content: center;
   flex-flow: column nowrap;
   padding: 2em;
+  transform: scale(0.85);
+  transform-origin: center;
+  transition: transform 250ms ease-in-out;
+}
+
+.project-item:hover,
+.project-item:focus {
+  transform: scale(1);
 }
 
 .project-details {
