@@ -343,3 +343,20 @@ nav a#openup {
 .project-details {
   color: #333;
 }
+
+.project-container {
+  display: grid;
+  gap: 1em;
+}
+
+@media screen and (min-width: 36em) {
+  .project-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 64em) {
+  .project-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
