@@ -116,6 +116,14 @@ section#skills_tools {
   .skills-tools-cols {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .skills-tools-cols .skill_icon {
+    display: none;
+  }
+
+  .skills-tools-cols ul li {
+    display: block;
+  }
 }
 
 @media screen and (min-width: 64em) {
