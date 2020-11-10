@@ -96,7 +96,16 @@ section#skills_tools {
   list-style: none;
 }
 
+.skills-tools-cols ul li {
+  display: none;
+}
+
+.skills-tools-cols ul.chosen li {
+  display: block;
+}
+
 .skills-tools-cols ul li:first-child {
+  display: block;
   font-size: 1.2rem;
   padding-bottom: 0.5rem;
   border-bottom: #444 solid 1px;
@@ -400,4 +409,8 @@ nav a#openup {
   .project-container {
     grid-template-columns: repeat(3, 1fr);
   }
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }

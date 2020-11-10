@@ -39,3 +39,33 @@ $(".cf a, .internal-link").on("click", function (event) {
     );
   }
 });
+
+const skill_icons = document.getElementsByClassName("skill_icon");
+if (skill_icons !== null) {
+  const skill_icon_list = [...skill_icons];
+
+  skill_icon_list.forEach((skill_icon_ele) => {
+    skill_icon_ele.addEventListener("click", function () {
+      if (this.classList.contains("fa-plus")) {
+        this.classList.remove("fa-plus");
+        this.classList.add("fa-minus");
+        this.parentElement.parentElement.classList.remove("chosen");
+      } else if (this.classList.contains("fa-minus")) {
+        const plus_icons = document.getElementsByClassName("fa-plus");
+        if (plus_icons !== null) {
+          const plus_icon_list = [...plus_icons];
+          plus_icon_list.forEach((plus_icon_ele) => {
+            plus_icon_ele.classList.remove("fa-plus");
+            plus_icon_ele.classList.add("fa-minus");
+            plus_icon_ele.parentElement.parentElement.classList.remove(
+              "chosen"
+            );
+          });
+        }
+        this.classList.remove("fa-minus");
+        this.classList.add("fa-plus");
+        this.parentElement.parentElement.classList.add("chosen");
+      }
+    });
+  });
+}
