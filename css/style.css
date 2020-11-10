@@ -422,3 +422,14 @@ nav a#openup {
 .cursor-pointer {
   cursor: pointer;
 }
+
+/* Interests section */
+#interests ul {
+  text-align: initial;
+}
+
+@media screen and (min-width: 36em) {
+  #interests p {
+    text-align: initial;
+  }
+}
