@@ -9,8 +9,8 @@
 
 # VS Code Extension
 
-- `Live Server` by _Ritwick Dey_
-- `Prettier` bt _Esben Petersen_ (enable format on save by searching `formatOnSave` in the _Code -> Preferences -> Settings_ and **check** the box)
+- `Live Server` by _Ritwick Dey_, the port number can be edited in by clicking _Extension Settings_, click on the 1st _Edit in settings.json_, set the port number in `"liveServer.settings.port"`, **right click** a _HTML_ file and choose **Open with Liver Server** for the _1st time use_.
+- `Prettier` by _Esben Petersen_ (enable format on save by searching `formatOnSave` in the _Code -> Preferences -> Settings_ and **check** the box), use `opt` + `Shift` + `F` to format code for the _1st time use_.
 
 # Rerference
 
