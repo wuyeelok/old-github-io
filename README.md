@@ -9,8 +9,8 @@
 
 # VS Code Extension
 
-* ```Live Server``` by *Ritwick Dey*
-* ```Prettier``` bt *Esben Petersen* (enable format on save by searching ```formatOnSave``` in the *Code -> Preferences -> Settings* and **check** the box)
+- `Live Server` by _Ritwick Dey_
+- `Prettier` bt _Esben Petersen_ (enable format on save by searching `formatOnSave` in the _Code -> Preferences -> Settings_ and **check** the box)
 
 # Rerference
 
