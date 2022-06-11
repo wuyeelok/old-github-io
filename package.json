@@ -4,7 +4,7 @@
   "description": "Kenneth GitHub Page",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev-server": "live-server --port=12671"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/wuyeelok/wuyeelok.github.io/issues"
   },
-  "homepage": "https://github.com/wuyeelok/wuyeelok.github.io#readme"
+  "homepage": "https://github.com/wuyeelok/wuyeelok.github.io#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
 }
