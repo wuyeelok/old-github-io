@@ -1,0 +1,19 @@
+{
+  "name": "wuyeelok.github.io",
+  "version": "1.0.0",
+  "description": "Kenneth GitHub Page",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wuyeelok/wuyeelok.github.io.git"
+  },
+  "author": "wuyeelok",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/wuyeelok/wuyeelok.github.io/issues"
+  },
+  "homepage": "https://github.com/wuyeelok/wuyeelok.github.io#readme"
+}
