@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+
 /* CSS Variables */
 :root {
   --primary-color: #b90415;
@@ -47,7 +48,8 @@ section#skills_tools {
 #showcase {
   margin: 0;
   padding: 0;
-  background-image: url("../img/showcase_keyboard_big.jpg"), radial-gradient(rgb(201, 193, 193), #111);
+  background-image: url("../img/showcase_keyboard_big.jpg"),
+    radial-gradient(rgb(201, 193, 193), #111);
   background-blend-mode: multiply;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -107,19 +109,23 @@ section#skills_tools {
   .skills-tools-cols {
     grid-template-columns: repeat(2, 1fr);
   }
+
   .skills-tools-cols .skill_icon {
     display: none;
   }
+
   .skills-tools-cols ul li {
     display: block;
   }
 }
+
 @media screen and (min-width: 64em) {
   .skills-tools-cols {
     grid-template-columns: repeat(3, 1fr);
     font-size: 1rem;
   }
 }
+
 /* Footer */
 footer .footer-bottom {
   background: #333;
@@ -200,17 +206,14 @@ nav {
   color: #eee;
   position: fixed;
 }
-
 nav ul {
   padding: 0;
   margin: 0;
 }
-
 nav li {
   display: inline;
   float: left;
 }
-
 nav a {
   display: inline-block;
   width: 100px;
@@ -220,11 +223,9 @@ nav a {
   color: #eee;
   text-decoration: none;
 }
-
 nav li:hover {
   background-color: #444;
 }
-
 nav a#openup {
   display: none;
 }
@@ -233,16 +234,21 @@ nav a#openup {
   .hide-on-small {
     display: none;
   }
+
   #showcase {
     height: clamp(18rem, 50vh, 55rem);
-    background-image: url("../img/showcase_keyboard_small.jpg"), radial-gradient(rgb(201, 193, 193), #111);
+    background-image: url("../img/showcase_keyboard_small.jpg"),
+      radial-gradient(rgb(201, 193, 193), #111);
   }
+
   #showcase .container {
     margin-top: 15vh;
   }
+
   #showcase h2 {
     font-size: 1.5rem;
   }
+
   nav {
     height: auto;
     border-bottom: 0;
@@ -338,6 +344,7 @@ nav a#openup {
     display: none;
   }
 }
+
 .project-item {
   text-align: center;
   display: flex;
@@ -368,11 +375,13 @@ nav a#openup {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
 @media screen and (min-width: 64em) {
   .project-container {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
 .cursor-pointer {
   cursor: pointer;
 }
