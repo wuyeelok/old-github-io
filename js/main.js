@@ -1,23 +1,21 @@
+// Referencing responsive nav by Ash Neilson - start
 const mediaMax = 43 * 16; // same as max-width in style.css
 
-// Responsive nav by Ash Neilson
-$(function () {
-  menu = $("nav ul");
+const menu = $("nav ul");
 
-  $("#openup").on("click", function (e) {
-    e.preventDefault();
-    menu.slideToggle();
-  });
-
-  $(window).resize(function () {
-    let w = $(this).width();
-    if (w > mediaMax && menu.is(":hidden")) {
-      menu.removeAttr("style");
-    }
-  });
-
-  $(".open-menu").height($(window).height());
+$("#openup").on("click", function (e) {
+  e.preventDefault();
+  menu.slideToggle();
 });
+
+$(window).resize(function () {
+  const w = $(this).width();
+  if (w > mediaMax && menu.is(":hidden")) {
+    menu.removeAttr("style");
+  }
+});
+
+$(".open-menu").height($(window).height());
 
 // Smooth Scrolling
 $(".cf a").on("click", function (event) {
@@ -56,6 +54,7 @@ $(".internal-link").on("click", function (event) {
     );
   }
 });
+// Referencing responsive nav by Ash Neilson - end
 
 const skill_icons = document.getElementsByClassName("skill_icon");
 if (skill_icons !== null) {
