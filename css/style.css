@@ -228,7 +228,7 @@ nav a#openup {
   display: none;
 }
 
-@media screen and (max-width: 39em) {
+@media screen and (max-width: 43em) {
   .hide-on-small {
     display: none;
   }
@@ -276,8 +276,8 @@ nav a#openup {
     height: 30px;
     display: inline-block;
     position: absolute;
-    right: 5px;
-    top: 20px;
+    right: 10px;
+    top: 30px;
   }
   nav a#openup {
     display: block;

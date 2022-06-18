@@ -1,30 +1,45 @@
-// Responsive nav by Ash Neilson
-$(function () {
-  menu = $("nav ul");
+// Referencing responsive nav by Ash Neilson - start
+const mediaMax = 43 * 16; // same as max-width in style.css
 
-  $("#openup").on("click", function (e) {
-    e.preventDefault();
-    menu.slideToggle();
-  });
+const menu = $("nav ul");
 
-  $(window).resize(function () {
-    var w = $(this).width();
-    if (w > 480 && menu.is(":hidden")) {
-      menu.removeAttr("style");
-    }
-  });
-
-  $("nav li").on("click", function (e) {
-    var w = $(window).width();
-    if (w < 480) {
-      menu.slideToggle();
-    }
-  });
-  $(".open-menu").height($(window).height());
+$("#openup").on("click", function (e) {
+  e.preventDefault();
+  menu.slideToggle();
 });
 
+$(window).resize(function () {
+  const w = $(this).width();
+  if (w > mediaMax && menu.is(":hidden")) {
+    menu.removeAttr("style");
+  }
+});
+
+$(".open-menu").height($(window).height());
+
 // Smooth Scrolling
-$(".cf a, .internal-link").on("click", function (event) {
+$(".cf a").on("click", function (event) {
+  if (this.hash !== "") {
+    event.preventDefault();
+
+    const hash = this.hash;
+
+    $("html, body").animate(
+      { scrollTop: $(hash).offset().top },
+      800,
+      function () {
+        window.location.hash = hash;
+      }
+    );
+
+    const w = $(window).width();
+    if (w <= mediaMax) {
+      menu.slideToggle();
+    }
+  }
+});
+
+$(".internal-link").on("click", function (event) {
   if (this.hash !== "") {
     event.preventDefault();
 
@@ -39,6 +54,7 @@ $(".cf a, .internal-link").on("click", function (event) {
     );
   }
 });
+// Referencing responsive nav by Ash Neilson - end
 
 const skill_icons = document.getElementsByClassName("skill_icon");
 if (skill_icons !== null) {
