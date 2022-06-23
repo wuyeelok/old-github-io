@@ -53,13 +53,13 @@ section#skills_tools {
   background-position: center center;
   background-size: cover;
   width: 100%;
-  height: clamp(33rem, 85vh, 55rem);
+  height: clamp(36rem, 90vh, 55rem);
   position: relative;
   overflow-y: hidden;
 }
 
 #showcase .container {
-  margin-top: 25vh;
+  margin-top: 20vh;
 }
 
 #showcase h1 {
@@ -228,12 +228,16 @@ nav a#openup {
   display: none;
 }
 
+.main__vac-brief {
+  display: none;
+}
+
 @media screen and (max-width: 43em) {
   .hide-on-small {
     display: none;
   }
   #showcase {
-    height: clamp(18rem, 50vh, 55rem);
+    height: clamp(25rem, 55vh, 55rem);
     background-image: url("../img/showcase_keyboard_small.jpg"), radial-gradient(rgb(201, 193, 193), #111);
   }
   #showcase .container {
@@ -284,6 +288,9 @@ nav a#openup {
     background-color: #333;
     width: 100%;
     position: relative;
+  }
+  .main__vac-brief {
+    display: block;
   }
 }
 .cf:before,

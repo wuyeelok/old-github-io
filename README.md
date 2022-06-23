@@ -1,8 +1,8 @@
-# Testing Github Pages
+# Kenneth WU Personal Github Pages
 
 # Table of Contents
 
-- [Testing Github Pages](#testing-github-pages)
+- [Kenneth WU Personal Github Pages](#kenneth-wu-personal-github-pages)
 - [Table of Contents](#table-of-contents)
 - [How to Setup Local Development Enviroment](#how-to-setup-local-development-enviroment)
   - [VS Code Extension to be Installed](#vs-code-extension-to-be-installed)
