@@ -100,3 +100,12 @@ const deviceType = () => {
   }
   return "desktop";
 };
+
+const paraWechatIdEle = document.getElementById("para__wechat-id");
+const paraWechatQrEle = document.getElementById("para__wechat-qr");
+
+if ("desktop" === deviceType()) {
+  paraWechatIdEle.classList.remove("hide-ele");
+} else {
+  paraWechatQrEle.classList.remove("hide-ele");
+}
